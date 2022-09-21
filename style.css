@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    background-image: url(img/image.jpg);
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type=text] {
+    padding: 12px 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(119, 111, 228);
+    border-radius: 4px;
+}
+.go_to_play{
+    background-color: #E88D34;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.group-div.success input {
+    border-color: #0bbd70;
+    outline: #0bbd70 solid 2px;
+
+    
+}
+
+.group-div.error input {
+    border-color: #ff3860;
+    outline: #ff3860 solid 1px;
+}
+
+.group-div .error {
+    color: azure;
+    font-size: 12px;
+    font-weight: bold;
+}
