@@ -1,10 +1,11 @@
-// -------------------fisrt page (Validation input)--------------
+//------------------Declaration--------------------
+
 Firstplayer = document.querySelector('.Firstplayer')
 Secondeplayer = document.querySelector('.Secondplayer')
 go_to_play = document.querySelector('.go_to_play')
 form = document.querySelector('.main')
 
-
+// -------------------fisrt page (Validation input)--------------
 go_to_play.addEventListener('click', () => {
     validateInputs();
 });
@@ -32,6 +33,7 @@ function validateInputs (){
     } 
 	else {
         success(Firstplayer);
+        localStorage.setItem("Player1",FisrtPlayerValue)
         i++;
     }
 
@@ -40,6 +42,7 @@ function validateInputs (){
     } 
 	else {
         success(Secondeplayer);
+        localStorage.setItem("Player2",SecondeplayerValue)    
         i++;
     }
     if(i==2){

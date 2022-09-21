@@ -38,7 +38,6 @@ input[type=text] {
 
     
 }
-
 .group-div.error input {
     border-color: #ff3860;
     outline: #ff3860 solid 1px;
@@ -62,7 +61,7 @@ input[type=text] {
 }
 .container {
     margin: auto;
-    margin-top: 60px;
+    margin-top: 25px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
@@ -75,21 +74,22 @@ input[type=text] {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 70px;
     cursor: pointer;
 }
-.btnReset{
+.btnReset , .btnBack{
     display: flex;
     justify-content: center;
 }
-#reset{
-    margin-top: 10px;
+#reset , #back{
+    margin-top: 15px;
     background-color: #DDBD32;
     padding: 10px 52px;
     border-radius: 20px;
     cursor: pointer;
     color: white;
     border: 0;
+    text-decoration: none;
 }
 .players{
     color: white;
@@ -100,4 +100,9 @@ input[type=text] {
 .p1{
     display:inline;
     width:20%;
+}
+.namePlayer1 , .namePlayer2{
+    color: #DDBD32;
+    font-weight: bold;
+    margin-top: 10px;
 }
