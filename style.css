@@ -61,7 +61,7 @@ input[type=text] {
 }
 .container {
     margin: auto;
-    margin-top: 25px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
@@ -76,12 +76,13 @@ input[type=text] {
     align-items: center;
     font-size: 70px;
     cursor: pointer;
+    color: white;
 }
-.btnReset , .btnBack{
+.btnReset{
     display: flex;
     justify-content: center;
 }
-#reset , #back{
+#reset{
     margin-top: 15px;
     background-color: #DDBD32;
     padding: 10px 52px;
@@ -105,4 +106,10 @@ input[type=text] {
     color: #DDBD32;
     font-weight: bold;
     margin-top: 10px;
+}
+.result{
+    text-align: center;
+    color: #B7136B;
+    font-size: 29px;
+    font-weight: bold;
 }

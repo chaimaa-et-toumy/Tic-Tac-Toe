@@ -10,7 +10,7 @@
 </head>
 
 <body class="body2">
-    
+
     <main class="background">
         <div class="title">
             <h1>Tic Tac Toe</h1>
@@ -21,30 +21,30 @@
                 <p>Player 1 :</p>
                 <p class="namePlayer1">player1</p>
             </div>
-
             <div class="p2">
                 <p>Player 2 :</p>
                 <p class="namePlayer2">player2</p>
             </div>
         </div>
-
+        <div class="result">
+            <span>X O</span>
+            <span style="color: #A2D5EE;">game</span>
+        </div>
+        </div>
         <div class="container">
-            <div class="btn">X</div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
-            <div class="btn"></div>
+            <div class="btn" id="1" onclick="check_button('1')"></div>
+            <div class="btn" id="2" onclick="check_button('2')"></div>
+            <div class="btn" id="3" onclick="check_button('3')"></div>
+            <div class="btn" id="4" onclick="check_button('4')"></div>
+            <div class="btn" id="5" onclick="check_button('5')"></div>
+            <div class="btn" id="6" onclick="check_button('6')"></div>
+            <div class="btn" id="7" onclick="check_button('7')"></div>
+            <div class="btn" id="8" onclick="check_button('8')"></div>
+            <div class="btn" id="9" onclick="check_button('9')"></div>
         </div>
         <div class="btnReset">
-            <button id="reset">Reset</button>
+            <button id="reset" onclick="document.location.reload()">Reset</button>
         </div>
-        <!-- <div class="btnBack">
-            <a href="index.html" id="back"> go back</a>
-        </div> -->
     </main>
     <script src="main2.js"></script>
 </body>
