@@ -58,11 +58,10 @@ input[type=text] {
 .title{
     color: wheat;
     text-align: center;
-    margin-top: 20px;
 }
 .container {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 35px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
