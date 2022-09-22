@@ -26,10 +26,7 @@
                 <p class="namePlayer2">player2</p>
             </div>
         </div>
-        <div class="result">
-            <span>X O</span>
-            <span style="color: #A2D5EE;">game</span>
-        </div>
+        <div class="result"></div>
         </div>
         <div class="container">
             <div class="btn" id="1" onclick="check_button('1')"></div>
@@ -45,7 +42,16 @@
         <div class="btnReset">
             <button id="reset" onclick="document.location.reload()">Reset</button>
         </div>
+
+        <div class="popup">
+            <div class="content">you are win</div>
+        </div>
+
+        <audio src="music/music1.mp3" id="music_winner"></audio>
+        <audio src="music/Mouse-Click.mp3" id="mouse_click"></audio>
+        <canvas id="my-canvas"></canvas>
     </main>
+    <script src="Confetti.js"></script>
     <script src="main2.js"></script>
 </body>
 
