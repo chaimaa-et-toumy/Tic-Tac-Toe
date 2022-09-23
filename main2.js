@@ -193,9 +193,9 @@ function cheque_gagnant(){
     }
         // if equal
         if(used_buttons.length == 9){
-            document.querySelector(".content").textContent = "you are equal in the game" 
+            document.querySelector(".content").textContent = "the game finiched with draw" 
             popup.classList.add('active')
-            canvas.classList.add('active')
+            canvas.classList.remove('active')
         }
 }
 function Sound(){
